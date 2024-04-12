@@ -1,3 +1,5 @@
+'use client';
+
 import { notFound } from 'next/navigation';
 
 function getRandomInt(count: number) {
@@ -12,7 +14,7 @@ const ReviewDetails = ({
   const random = getRandomInt(2);
 
   if (random === 1) {
-    throw new Error('Something went wrong');
+    throw new Error('Error loading the review details');
   }
 
   if (parseInt(params.reviewId) > 1000) {
