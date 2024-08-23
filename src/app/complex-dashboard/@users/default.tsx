@@ -1,7 +1,7 @@
 import Card from '@/components/card';
 
 const DefaultUsers = () => {
-  return <Card>Users</Card>;
+  return <Card>Users Default File</Card>;
 };
 
 export default DefaultUsers;

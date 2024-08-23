@@ -1,5 +1,5 @@
 const DefaultComplexDashboard = () => {
-  return <div>Complex Dashboard</div>;
+  return <div>Complex Dashboard Default File</div>;
 };
 
 export default DefaultComplexDashboard;

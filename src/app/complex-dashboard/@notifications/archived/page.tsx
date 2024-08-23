@@ -1,10 +1,10 @@
-import Card from '@/components/card';
 import Link from 'next/link';
+import Card from '@/components/card';
 
 const ArchivedNotifications = () => {
   return (
     <Card>
-      <h3>Archived Notifications</h3>
+      <h2>Archived Notifications</h2>
       <Link href="/complex-dashboard">Default</Link>
     </Card>
   );
