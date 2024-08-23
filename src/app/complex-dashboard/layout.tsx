@@ -15,7 +15,7 @@ export default function ComplexDashboardLayout({
   revenue: React.ReactNode;
   login: React.ReactNode;
 }) {
-  const isLoggedIn = false;
+  const isLoggedIn = true;
 
   return isLoggedIn ? (
     <>
