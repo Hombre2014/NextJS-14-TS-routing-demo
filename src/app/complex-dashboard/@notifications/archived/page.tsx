@@ -1,5 +1,5 @@
-import Card from '@/components/card';
 import Link from 'next/link';
+import Card from '@/components/card';
 
 const ArchivedNotifications = () => {
   return (
